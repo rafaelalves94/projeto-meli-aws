@@ -10,9 +10,9 @@ const fs = require('fs')
 
 //Credenciais do aws
 aws.config.update({
-    accessKeyId: 'AKIAZHDVUGBLHJVOBK4X',
-    secretAccessKey: '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',
-    region:'sa-east-1'
+    accessKeyId: '<seuID>',
+    secretAccessKey: '<suaChveScecreta>',
+    region:'<suaRegiao>'
 })
 
 //Configuraçao do ejs, para vizualizar o front-end
