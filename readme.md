@@ -100,9 +100,3 @@ Configurar o AWS CLI na máquina local;
 Acessar a pasta do projeto e executar o .bat: projeto-meli-aws/downloadfromS3.bat
 
 Os arquivos serão baixados em C:\downloads-s3
-
-### Considerações
-
-Devido a minha falta de experiência com desenvolvimento de aplicações, principalmente com os serviços AWS, não foi possível desenvolver todas as partes do script 
-no tempo determinado. Somente consegui fazer com que os arquivos da máquina local sejam upados no bucket do s3, e os outros processos (baixar no EC2, upar 
-do EC2 para o S3, download do S3 na máquina local), só consegui fazer através da linha de comando. De qualquer forma, já foi de grande valia para mim esse curto período de tempo estudando e aprendendo sobre essas tecnologias e diversas implementeções. Desde já agradeço pela oportunidade!
